@@ -241,3 +241,11 @@ document.addEventListener("keydown", (event) => {
     teclaSom.play();
   }
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const sairBotao = document.querySelector(".buttom_sair");
+
+  sairBotao.addEventListener("click", () => {
+    window.history.back();
+  });
+});
