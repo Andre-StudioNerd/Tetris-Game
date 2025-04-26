@@ -13,10 +13,6 @@ body {
   background-color: #000;
 }
 
-.tretis-back {
-  background: url("/imagens/tetrisgame.jpg");
-}
-
 #tetris {
   background-color: #0000004f;
   box-shadow: 0 0 10px 2px lightgrey;
