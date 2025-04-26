@@ -2,12 +2,6 @@
 
 Bem-vindo ao projeto **Tetris Game** — um clássico dos jogos, recriado em HTML5, CSS3 e JavaScript!
 
-![Tetris Game Preview](https://user-images.githubusercontent.com/00000000/placeholder-image.png)
-
-> Projeto criado por [Andre-StudioNerd](https://github.com/Andre-StudioNerd).
-
----
-
 ## 📋 Descrição
 
 Este é um simples e divertido clone do clássico Tetris. O objetivo do jogo é encaixar as peças de forma a completar linhas horizontais sem deixar espaços vazios.
