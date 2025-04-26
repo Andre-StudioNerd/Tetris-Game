@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-color: #000;
+}
+
+.tretis-back {
+  background: url("/imagens/tetrisgame.jpg");
+}
+
+#tetris {
+  background-color: #0000004f;
+  box-shadow: 0 0 10px 2px lightgrey;
+}
+
+.title {
+  background-color: #fff;
+  color: #000;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.buttom {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: aquamarine;
+  color: #000;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.buttom:hover {
+  background-color: rgb(55, 130, 104);
+  color: #fff;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.score {
+  color: #fff;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.text {
+  margin-top: 10px;
+}
+.instructions {
+  margin: 40px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+}
+ul {
+  list-style: none;
+}
